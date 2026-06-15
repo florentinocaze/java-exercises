@@ -17,15 +17,11 @@ public class Ex07LogicalOperators {
         char B = scanner.next().charAt(0);
 
         if (A == 'V' && A == B) {
-            System.out.println("Ambos são verdadeiros.");
+            System.out.println("Ambos os valores são verdadeiros.");
         } else if (A == 'F' && A == B ) {
-            System.out.println("Ambos são falsos.");
-        } else if (A == 'V' && B == 'F') {
-            System.out.println("A é verdadeiro e B é falso.");
-        } else if (A == 'F' && B == 'V') {
-            System.out.println("A é falso e B é verdadeiro.");
+            System.out.println("Ambos os valores são falsos.");
         } else {
-            System.out.println("Valores inválidos.");
+            System.out.println("Os valores são diferentes.");
         }
     }
 }
