@@ -22,5 +22,7 @@ public class Ex10AverageThreeGrades {
         double average = (grade01 + grade02 + grade03) / 3;
 
         System.out.println("A média das suas três notas é " + df.format(average) + ".");
+
+        scanner.close();
     }
 }

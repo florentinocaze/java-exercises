@@ -28,5 +28,7 @@ public class Ex02EvenOddPositiveNegative {
         } else {
             System.out.println("Valor inválido.");
         }
+
+        scanner.close();
     }
 }

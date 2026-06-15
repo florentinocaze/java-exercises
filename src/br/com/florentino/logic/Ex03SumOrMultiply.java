@@ -23,5 +23,7 @@ public class Ex03SumOrMultiply {
             int mult = A * B;
             System.out.println("O produto de A e B é " + mult + ".");
         }
+
+        scanner.close();
     }
 }

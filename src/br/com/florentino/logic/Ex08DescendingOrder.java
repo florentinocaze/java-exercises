@@ -34,5 +34,7 @@ public class Ex08DescendingOrder {
         for (int item : intList) {
             System.out.print(item + " ");
         }
+
+        scanner.close();
     }
 }

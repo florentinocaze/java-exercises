@@ -32,5 +32,7 @@ public class Ex11StudentApproval {
         else {
             System.out.println("Aluno reprovado com média " + df.format(average) + ".");
         }
+
+        scanner.close();
     }
 }

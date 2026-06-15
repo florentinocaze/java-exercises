@@ -36,5 +36,7 @@ public class Ex09BMICalculator {
         } else {
             System.out.println("Valor inválido.");
         }
+
+        scanner.close();
     }
 }

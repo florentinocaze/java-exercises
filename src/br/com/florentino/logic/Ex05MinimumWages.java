@@ -20,5 +20,7 @@ public class Ex05MinimumWages {
         double wagesAmount = wage / minWage;
 
         System.out.println("Você ganha " + df.format(wagesAmount) + " salários mínimos.");
+
+        scanner.close();
     }
 }

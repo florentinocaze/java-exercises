@@ -23,5 +23,7 @@ public class Ex07LogicalOperators {
         } else {
             System.out.println("Os valores são diferentes.");
         }
+
+        scanner.close();
     }
 }

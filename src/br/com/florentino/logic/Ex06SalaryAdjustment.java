@@ -18,5 +18,7 @@ public class Ex06SalaryAdjustment {
         double adjustedSalary = salary + (salary * 0.05);
 
         System.out.println("Seu salário, com ajustes, equivale a R$" + df.format(adjustedSalary) + ".");
+
+        scanner.close();
     }
 }

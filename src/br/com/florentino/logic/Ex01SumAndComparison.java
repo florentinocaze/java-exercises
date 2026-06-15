@@ -27,5 +27,7 @@ public class Ex01SumAndComparison {
         } else {
             System.out.println(sum + " é menor que C.");
         }
+
+        scanner.close();
     }
 }

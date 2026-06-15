@@ -17,5 +17,7 @@ public class Ex04PredecessorSuccessor {
         int succ = A + 1;
 
         System.out.println("O antecessor de " + A + " é " + pred + ", enquanto o sucessor é " + succ + ".");
+
+        scanner.close();
     }
 }
