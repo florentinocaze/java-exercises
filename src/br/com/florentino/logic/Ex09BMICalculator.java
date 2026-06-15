@@ -19,6 +19,22 @@ public class Ex09BMICalculator {
 
         double calcBMI = weight / (height * height);
 
-        System.out.println("De acordo com seu peso e altura, seu IMC corresponde a " + df.format(calcBMI) + ".");
+        System.out.print("De acordo com seu peso e altura, seu IMC corresponde a " + df.format(calcBMI) + ". Segundo a OMS, esta faixa ");
+
+        if (calcBMI > 0 && calcBMI < 18.5) {
+            System.out.println("é classificada como abaixo do peso normal.");
+        } else if (calcBMI >= 18.5 && calcBMI <= 24.9) {
+            System.out.println("é classificada como peso normal.");
+        } else if (calcBMI >= 25 && calcBMI <= 29.9) {
+            System.out.println("é classificada como excesso de peso.");
+        } else if (calcBMI >= 30 && calcBMI <= 34.9) {
+            System.out.println("é classificada como Obesidade classe I.");
+        } else if (calcBMI >= 35 && calcBMI <= 39.9) {
+            System.out.println("é classificada como Obesidade classe II.");
+        } else if (calcBMI >= 40) {
+            System.out.println("é classificada como Obesidade classe III.");
+        } else {
+            System.out.println("Valor inválido.");
+        }
     }
 }
