@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia dois booleanos e determine se ambos são verdadeiros ou falsos.
- */
+// Leia dois booleanos e determine se ambos são verdadeiros ou falsos.
 
 public class Ex07LogicalOperators {
     public static void main(String[] args) {

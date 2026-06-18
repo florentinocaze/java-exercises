@@ -3,9 +3,7 @@ package br.com.florentino.logic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Calcule litros gastos em viagem dado tempo e velocidade média.
- */
+// Calcule litros gastos em viagem dado tempo e velocidade média.
 
 public class Ex23FuelConsumption {
     public static void main(String[] args) {

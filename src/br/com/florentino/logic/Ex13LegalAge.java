@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia nome e idade. Mostre se a pessoa é maior ou menor de idade.
- */
+// Leia nome e idade. Mostre se a pessoa é maior ou menor de idade.
 
 public class Ex13LegalAge {
     public static void main(String[] args) {

@@ -2,9 +2,7 @@ package br.com.florentino.syntax;
 
 import java.util.Scanner;
 
-/**
- * Leia uma frase e exiba: tamanho, maiúsculas, invertida e a contagem de vogais.
- */
+// Leia uma frase e exiba: tamanho, maiúsculas, invertida e a contagem de vogais.
 
 public class Ex01StringManipulation {
     public static void main(String[] args) {

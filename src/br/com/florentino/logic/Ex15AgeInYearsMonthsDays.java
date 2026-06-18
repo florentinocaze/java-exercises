@@ -4,9 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
 
-/**
- * Leia o ano de nascimento e calcule anos, meses e dias vividos.
- */
+// Leia o ano de nascimento e calcule anos, meses e dias vividos.
 
 public class Ex15AgeInYearsMonthsDays {
     public static void main(String[] args) {

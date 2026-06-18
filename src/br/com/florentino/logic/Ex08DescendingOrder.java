@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia três inteiros e imprima em ordem decrescente.
- */
+// Leia três inteiros e imprima em ordem decrescente.
 
 public class Ex08DescendingOrder {
     public static void main(String[] args) {

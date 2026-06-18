@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Troque os valores de A e B sem usar variável auxiliar.
- */
+// Troque os valores de A e B sem usar variável auxiliar.
 
 public class Ex14SwapValues {
     public static void main(String[] args) {

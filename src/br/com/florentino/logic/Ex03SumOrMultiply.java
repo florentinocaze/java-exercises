@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia A e B. Se iguais, some; caso contrário, multiplique. Imprima C.
- */
+// Leia A e B. Se iguais, some; caso contrário, multiplique. Imprima C.
 
 public class Ex03SumOrMultiply {
     public static void main(String[] args) {

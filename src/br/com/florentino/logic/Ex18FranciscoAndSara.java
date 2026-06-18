@@ -1,8 +1,6 @@
 package br.com.florentino.logic;
 
-/**
- * Calcule em quantos anos Francisco ultrapassará Sara em altura.
- */
+// Calcule em quantos anos Francisco ultrapassará Sara em altura.
 
 public class Ex18FranciscoAndSara {
     public static void main(String[] args) {

@@ -3,9 +3,7 @@ package br.com.florentino.logic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Leia temperatura em Fahrenheit e converta para Celsius.
- */
+// Leia temperatura em Fahrenheit e converta para Celsius.
 
 public class Ex17FahrenheitToCelsius {
     public static void main(String[] args) {

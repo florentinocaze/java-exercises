@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia um inteiro. Imprima seu antecessor e seu sucessor.
- */
+// Leia um inteiro. Imprima seu antecessor e seu sucessor.
 
 public class Ex04PredecessorSuccessor {
     public static void main(String[] args) {

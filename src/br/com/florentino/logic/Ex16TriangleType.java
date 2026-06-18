@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia três lados. Valide o triângulo e determine seu tipo.
- */
+// Leia três lados. Valide o triângulo e determine seu tipo.
 
 public class Ex16TriangleType {
     public static void main(String[] args) {

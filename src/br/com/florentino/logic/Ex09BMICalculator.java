@@ -3,9 +3,7 @@ package br.com.florentino.logic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Leia peso e altura. Calcule o IMC e exiba a condição correspondente.
- */
+// Leia peso e altura. Calcule o IMC e exiba a condição correspondente.
 
 public class Ex09BMICalculator {
     public static void main(String[] args) {

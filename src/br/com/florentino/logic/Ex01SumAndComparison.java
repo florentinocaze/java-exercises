@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia A, B, C. Mostre a soma de A+B e se é menor que C.
- */
+// Leia A, B, C. Mostre a soma de A+B e se é menor que C.
 
 public class Ex01SumAndComparison {
     public static void main(String[] args) {

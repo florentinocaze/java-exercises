@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia A e B. Imprima o quociente e o resto da divisão inteira.
- */
+// Leia A e B. Imprima o quociente e o resto da divisão inteira.
 
 public class Ex21QuotientAndRemainder {
     public static void main(String[] args) {

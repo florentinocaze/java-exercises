@@ -3,9 +3,7 @@ package br.com.florentino.logic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Leia o valor de um produto e o modo de pagamento. Calcule o valor final.
- */
+// Leia o valor de um produto e o modo de pagamento. Calcule o valor final.
 
 public class Ex12PaymentConditions {
     public static void main(String[] args) {

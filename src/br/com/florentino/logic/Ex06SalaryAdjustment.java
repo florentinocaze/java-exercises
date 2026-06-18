@@ -3,9 +3,7 @@ package br.com.florentino.logic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Leia um valor e imprima com reajuste de 5%.
- */
+// Leia um valor e imprima com reajuste de 5%.
 
 public class Ex06SalaryAdjustment {
     public static void main(String[] args) {

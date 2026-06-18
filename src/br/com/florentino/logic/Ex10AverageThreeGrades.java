@@ -3,9 +3,7 @@ package br.com.florentino.logic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Leia três notas e imprima a média.
- */
+// Leia três notas e imprima a média.
 
 public class Ex10AverageThreeGrades {
     public static void main(String[] args) {

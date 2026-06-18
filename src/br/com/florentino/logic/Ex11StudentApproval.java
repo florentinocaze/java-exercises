@@ -3,9 +3,7 @@ package br.com.florentino.logic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Leia quatro notas, calcule a média e mostre se o aluno foi aprovado.
- */
+// Leia quatro notas, calcule a média e mostre se o aluno foi aprovado.
 
 public class Ex11StudentApproval {
     public static void main(String[] args) {

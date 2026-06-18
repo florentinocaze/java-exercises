@@ -3,9 +3,7 @@ package br.com.florentino.syntax;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Preencha um array de 10 inteiros, encontre o maior, menor e calcule a média.
- */
+// Preencha um array de 10 inteiros, encontre o maior, menor e calcule a média.
 
 public class Ex02BasicArrays {
     public static void main(String[] args) {

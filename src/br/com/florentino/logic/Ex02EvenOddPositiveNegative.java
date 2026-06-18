@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia um número. Mostre se é par/ímpar e positivo/negativo.
- */
+// Leia um número. Mostre se é par/ímpar e positivo/negativo.
 
 public class Ex02EvenOddPositiveNegative {
     public static void main(String[] args) {

@@ -3,9 +3,7 @@ package br.com.florentino.logic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Leia o salário do usuário. Calcule quantos salários mínimos representa.
- */
+// Leia o salário do usuário. Calcule quantos salários mínimos representa.
 
 public class Ex05MinimumWages {
     public static void main(String[] args) {

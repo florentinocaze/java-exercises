@@ -2,9 +2,7 @@ package br.com.florentino.logic;
 
 import java.util.Scanner;
 
-/**
- * Leia um número e imprima sua tabuada.
- */
+// Leia um número e imprima sua tabuada.
 
 public class Ex20CustomMultiplicationTable {
     public static void main(String[] args) {

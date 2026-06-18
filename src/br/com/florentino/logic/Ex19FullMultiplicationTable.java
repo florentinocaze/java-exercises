@@ -1,8 +1,6 @@
 package br.com.florentino.logic;
 
-/**
- * Imprima a tabuada de 1 a 10.
- */
+// Imprima a tabuada de 1 a 10.
 
 public class Ex19FullMultiplicationTable {
     public static void main(String[] args) {
