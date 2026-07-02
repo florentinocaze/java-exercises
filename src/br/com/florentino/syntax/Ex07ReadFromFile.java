@@ -15,12 +15,12 @@ public class Ex07ReadFromFile {
         System.out.print("Insira o caminho do arquivo a ser lido: ");
         String fileName = scanner.nextLine();
 
-        readFile(fileName);
+        readFromFile(fileName);
 
         scanner.close();
     }
 
-    public static void readFile(String fileName) {
+    private static void readFromFile(String fileName) {
         try (FileReader fileReader = new FileReader(fileName);
              BufferedReader bufferedReader = new BufferedReader(fileReader)) {
             String line;
