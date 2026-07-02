@@ -1,0 +1,4 @@
+Java is a strongly typed, object-oriented programming language.
+It follows the principle of Write Once, Run Anywhere (WORA).
+The JVM is responsible for executing bytecode on any platform.
+Encapsulation, inheritance, polymorphism and abstraction are the four OOP pillars.
