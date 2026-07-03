@@ -52,13 +52,11 @@ Or open the project in any IDE (IntelliJ IDEA, Eclipse, VS Code with Java Extens
 
 ---
 
-## 📝 File naming convention
+## 📝 Conventions
 
-```
-Ex[number][DescriptionInCamelCase].java
-```
-
-Every file includes a comment at the top with the problem statement and the approach used.
+### File naming
+- **logic/** and **syntax/**: single-file exercises following the pattern `Ex[number][DescriptionInCamelCase].java`;
+- **oop/**: each exercise is a package containing multiple classes and a `Main.java` entry point.
 
 ---
 
