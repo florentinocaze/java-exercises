@@ -9,25 +9,31 @@ public class BankAccount {
     }
 
     public BankAccount(double balance) {
+        if (balance < 0) {
+            throw new IllegalArgumentException("Saldo inicial não pode ser negativo.");
+        }
+
         this.balance = balance;
     }
 
     public void deposit(double value) {
-        if (value > 0) {
-            this.balance += value;
-        } else {
-            System.out.println("Valor inválido.");
+        if (value <= 0) {
+            throw new IllegalArgumentException("O valor para depósito deve ser positivo.");
         }
+
+        this.balance += value;
     }
 
     public void withdraw(double value) throws InsufficientBalanceException {
+        if (value <= 0) {
+            throw new IllegalArgumentException("O valor do saque deve ser positivo.");
+        }
+
         if (value > this.balance) {
             throw new InsufficientBalanceException("Saldo insuficiente.");
-        } else if (value <= 0) {
-            System.out.println("Valor inválido.");
-        } else {
-            this.balance -= value;
         }
+
+        this.balance -= value;
     }
 
     public double getBalance() {
