@@ -1,5 +1,7 @@
 package br.com.florentino.oop.ex02bankaccountencapsulation;
 
+import br.com.florentino.oop.ex09customexception.InsufficientBalanceException;
+
 public class BankAccount {
     private double balance;
 
@@ -18,9 +20,9 @@ public class BankAccount {
         }
     }
 
-    public void withdraw(double value) {
+    public void withdraw(double value) throws InsufficientBalanceException {
         if (value > this.balance) {
-            System.out.println("Saldo insuficiente.");
+            throw new InsufficientBalanceException("Saldo insuficiente.");
         } else if (value <= 0) {
             System.out.println("Valor inválido.");
         } else {
