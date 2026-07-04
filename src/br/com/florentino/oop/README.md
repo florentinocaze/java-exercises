@@ -58,16 +58,14 @@ oop/
 │   ├── WeekDay.java
 │   └── Main.java
 ├── ex08productlist/
-│   ├── Product.java
 │   └── Main.java
 ├── ex09customexception/
-│   ├── BankAccount.java
 │   ├── InsufficientBalanceException.java
 │   └── Main.java
-└── ex10inventorysystem/
-    ├── Product.java
-    ├── Inventory.java
-    └── Main.java
+├── ex10inventorysystem/
+│   ├── Inventory.java
+│   └── Main.java
+└── README.md
 ```
 
 ---
