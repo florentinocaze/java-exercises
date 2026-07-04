@@ -6,6 +6,8 @@ Implemente os métodos deposit(), withdraw() e getBalance(), com validação par
 saque acima do saldo disponível e depósitos negativos. No Main, demonstre as operações.
 */
 
+import br.com.florentino.oop.ex09customexception.InsufficientBalanceException;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -32,7 +34,12 @@ public class Main {
                 case 1 -> {
                     System.out.print("Insira o valor que deseja sacar: ");
                     double valueToWithdraw = scanner.nextDouble();
-                    bankAccount.withdraw(valueToWithdraw);
+
+                    try {
+                        bankAccount.withdraw(valueToWithdraw);
+                    } catch (InsufficientBalanceException e) {
+                        System.out.println(e.getMessage());
+                    }
                 }
                 case 2 -> {
                     System.out.print("Insira o valor que deseja depositar: ");
